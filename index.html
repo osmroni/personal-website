@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Roni Shitrit – Journey & Thoughts</title>
+<title>Roni Shitrit – Product Manager Portfolio</title>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
   body {
@@ -66,6 +66,14 @@
     color: #0077cc;
     text-decoration: underline;
   }
+  ul {
+    margin-left: 2rem;
+    padding-left: 0;
+    list-style-position: outside;
+  }
+  li {
+    margin-bottom: 0.8rem;
+  }
   /* Timeline Styles */
   .timeline {
     position: relative;
@@ -73,14 +81,14 @@
     padding-left: 2rem;
     border-left: 3px solid #0077cc;
   }
-.timeline-event {
-  position: relative;
-  margin-bottom: 2.5rem;
-  padding-left: 1.5rem; /* ← THIS is the key */
-  opacity: 0;
-  transform: translateX(-30px);
-  transition: all 0.6s ease-out;
-}
+  .timeline-event {
+    position: relative;
+    margin-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: all 0.6s ease-out;
+  }
   .timeline-event.visible {
     opacity: 1;
     transform: translateX(0);
@@ -100,7 +108,7 @@
     margin: 0 0 0.3rem 0;
     font-weight: 600;
     font-size: 1.2rem;
-    margin-top: -2px; /* optical alignment with dot */
+    margin-top: -2px;
   }
   .timeline-event span {
     font-size: 0.9rem;
@@ -118,98 +126,73 @@
 
 <header>
   <h1>Roni Shitrit</h1>
-  <p>Exploring ideas, building systems, and reflecting on the journey</p>
+  <p>Product Manager | B2B SaaS & Data-Driven Systems | Unit 8200 Alumni</p>
   <nav>
+    <a href="#summary">Summary</a>
     <a href="#journey">Journey</a>
-    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#philosophy">How I Think</a>
+    <a href="#learning">Learning</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
 
 <main>
-  <section id="journey">
-    <h2>My Journey</h2>
-    <p>My journey into product management started in environments where ambiguity was the default and decisions had real-life consequences.</p>
-    <p>In Unit 8200, I learned how complex systems behave under pressure, and how clarity, ownership, and trust make the difference between good intentions and real outcomes. That experience shaped how I approach product today — with deep respect for systems, data, and the people behind them.</p>
-    <p>Over time, I found myself drawn to roles where I could sit between technology and users, translating complexity into usable, scalable solutions.</p>
-    
-    <div class="timeline">
-      <div class="timeline-event">
-        <h3>AAM Shchakim Program - Unit 8200</h3>
-        <span>2020-2021</span>
-        <p>Started my formal leadership and intelligence training, laying the foundation for structured thinking and problem-solving under pressure.</p>
-      </div>
-      <div class="timeline-event">
-        <h3>Project Manager - Unit 8200</h3>
-        <span>2021-2022</span>
-        <p>Owned end-to-end responsibility for 3 SaaS and data-driven systems, working closely with cross-functional teams and mentoring over 30 people. Led development of a new system replacing a legacy platform, tripling its user base.</p>
-      </div>
-      <div class="timeline-event">
-        <h3>Lead</h3>
-        <span>2026 (planned)</span>
-        <p>Expanding my technical foundation to explore more complex product and engineering challenges.</p>
-      </div>
-      <div class="timeline-event">
-        <h3>Data Product Manager</h3>
-        <span>2025</span>
-        <p>Focused on data-heavy product design, exploring pipelines, models, and analytics frameworks to deliver measurable impact.</p>
-      </div>
 
-    </div>
-  </section>
-
-    <section id="experience">
-  <h2>Selected Experiences</h2>
-
+<section id="summary">
+  <h2>Professional Summary</h2>
   <p>
-    Rather than full case studies, these are a few experiences that shaped how I work
-    and think as a product manager:
+    Product Manager with 4+ years of experience leading business-critical B2B SaaS and data-driven products used by tens of thousands of users. Experienced in improving underperforming systems, increasing adoption, and enhancing core user journeys. Former Unit 8200 officer with strong technical expertise and full product lifecycle experience — from defining vision and roadmaps to executing launches and tracking outcomes in fast-paced environments.
   </p>
 
+  <h2>Key Achievements</h2>
   <ul>
-    <li>
-      Leading the replacement of a legacy platform with a modern system that
-      tripled its user base and became a core interface for advanced AI models
-    </li>
-    <li>
-      Redefining core data models and specifications to improve scalability,
-      consistency, and downstream usability across multiple teams
-    </li>
-    <li>
-      Owning end-to-end delivery of SaaS and data-driven systems used by
-      tens of thousands of users across diverse personas
-    </li>
-    <li>
-      Mentoring team leads and product contributors while balancing people leadership
-      with hands-on ownership in high-pressure environments
-    </li>
+    <li>Improved the strategy of a core product used by hundreds of thousands of users, reversing declining adoption by redefining its value structure and restoring usability at scale.</li>
+    <li>Led the replacement of a legacy SaaS system, tripling active users and enabling expansion into new workflows through a targeted product pivot.</li>
+    <li>Delivered multiple SaaS products end-to-end, from discovery and PRDs to launch and iteration, collaborating closely with engineering, design, analytics, and stakeholders.</li>
+    <li>Defined and tracked product success metrics for adoption, engagement, and operational performance, using data to guide prioritization and roadmap decisions.</li>
   </ul>
-
-  <p>
-    For deeper dives into my professional work, you can find selected case studies in my
-    <a class="external" href="https://osmroni.github.io/product-portfolio/" target="_blank">
-      product portfolio
-    </a>.
-  </p>
 </section>
 
-  
+<section id="journey">
+  <h2>Journey & Education</h2>
+  <div class="timeline">
+    <div class="timeline-event">
+      <h3>AAM Shchakim Program & Product Management Training – Unit 8200</h3>
+      <span>2020–2021</span>
+      <p>Completed leadership and product management training, building the foundation for structured problem-solving in high-stakes environments.</p>
+    </div>
+    <div class="timeline-event">
+      <h3>Product Manager – Unit 8200, Israel Defense Forces</h3>
+      <span>2021–Present</span>
+      <p>Led multiple SaaS and data-driven products supporting tens of thousands of users, overseeing full lifecycle, strategic pivots, and product adoption improvements.</p>
+    </div>
+    <div class="timeline-event">
+      <h3>Intro to Computer Science & Java Programming – The Open University</h3>
+      <span>2026 (planned)</span>
+      <p>Expanding technical foundation with formal computer science and programming education.</p>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Selected Experiences</h2>
+  <ul>
+    <li>Led lifecycle for multiple SaaS products, identifying gaps, improving adoption, and scaling workflows.</li>
+    <li>Replaced a legacy system with a modern SaaS product, tripling active users and enabling new capabilities.</li>
+    <li>Executed strategic product pivots to expand product impact and increase engagement across user journeys.</li>
+    <li>Oversaw core data-centric products embedded in key workflows, restoring adoption and supporting downstream usage.</li>
+    <li>Mentored junior PMs while collaborating cross-functionally with engineering, UX, analytics, and stakeholders.</li>
+    <li>Defined KPIs for adoption, engagement, and operational performance, iterating to improve outcomes.</li>
+  </ul>
+  <p>For more detailed case studies, see my <a class="external" href="https://osmroni.github.io/product-portfolio/" target="_blank">product portfolio</a>.</p>
+</section>
+
 <section id="philosophy">
   <h2>How I Think About Product</h2>
-
   <p>
-    I see product management as the craft of making good decisions under uncertainty.
-    My work sits at the intersection of systems thinking, data, and human judgment —
-    understanding complex problems deeply before committing to solutions.
+    I see product management as making good decisions under uncertainty. My work sits at the intersection of systems thinking, data, and human judgment — understanding complex problems deeply before committing to solutions.
   </p>
-
-  <p>
-    I care about clarity: clear problem framing, clear ownership, and clear measures of
-    success. In data-heavy and AI-adjacent systems, I’ve learned that the quality of
-    decisions often depends less on the tools themselves and more on how well the system
-    is designed to support the people using it.
-  </p>
-
   <ul>
     <li><strong>Start with the problem, not the feature</strong> — resist premature solutions.</li>
     <li><strong>Design for scale, optimize for learning</strong> — especially early.</li>
@@ -217,47 +200,25 @@
     <li><strong>Build for humans, not dashboards</strong> — metrics serve decisions, not the other way around.</li>
   </ul>
 </section>
-  
+
 <section id="learning">
   <h2>What I’m Learning & Exploring</h2>
-
-  <p>
-    I’m continuously expanding my understanding of how modern product teams operate
-    in complex, data-intensive environments.
-  </p>
-
-  <p>
-    Lately, I’ve been spending time exploring:
-  </p>
-
   <ul>
-    <li>
-      How AI-driven systems change product discovery, user expectations,
-      and the role of interfaces
-    </li>
-    <li>
-      Data modeling and pipelines as first-class product decisions,
-      not just technical implementation details
-    </li>
-    <li>
-      How product managers can better collaborate with research and engineering
-      in ambiguous, high-stakes environments
-    </li>
+    <li>How AI-driven systems change product discovery, user expectations, and interface design.</li>
+    <li>Data modeling and pipelines as first-class product decisions, not just technical implementation details.</li>
+    <li>How product managers can collaborate effectively with research and engineering in ambiguous, high-stakes environments.</li>
   </ul>
+  <p>I treat learning as an ongoing practice — combining hands-on experience, structured study, and reflection.</p>
+</section>
 
+<section id="contact">
+  <h2>Contact & Connect</h2>
   <p>
-    I treat learning as an ongoing practice — combining hands-on experience,
-    structured study, and reflection.
+    Reach out via email: <a class="external" href="mailto:osmroni@gmail.com">osmroni@gmail.com</a><br>
+    Connect on LinkedIn: <a class="external" href="http://linkedin.com/in/roni-shitrit" target="_blank">linkedin.com/in/roni-shitrit</a>
   </p>
 </section>
 
-
-
-
-  <section id="contact">
-    <h2>Contact & Connect</h2>
-    <p>Feel free to reach out via email at <a class="external" href="mailto:osmroni@gmail.com">osmroni@gmail.com</a> or connect on LinkedIn: <a class="external" href="http://linkedin.com/in/roni-shitrit" target="_blank">linkedin.com/in/roni-shitrit</a>.</p>
-  </section>
 </main>
 
 <footer>
